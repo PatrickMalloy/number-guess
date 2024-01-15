@@ -10,7 +10,8 @@ int enterGuess();
 
 int main() {
 
-  srand(time(NULL)); // init random number generator
+  // init random number generator
+  srand(time(NULL));
 
   int randomNumber, playerGuess;
 
