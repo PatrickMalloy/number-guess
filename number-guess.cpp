@@ -31,6 +31,10 @@ int main() {
   return 0;
 }
 
+/**
+ * Allows user to input a number between 1-10, inclusive.
+ * @returns users guess
+*/
 int enterGuess() {
   int guess=0;
 
