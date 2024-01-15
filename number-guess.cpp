@@ -10,12 +10,13 @@ int enterGuess();
 
 int main() {
 
-  // init random number generator
+  // init random number generator using the current time as a seed.
   srand(time(NULL));
 
   int randomNumber, playerGuess;
 
   cout << "==============================" << endl;
+  // Random number between 1-10, inclusive.
   randomNumber = random() % 10 + 1;
   playerGuess = enterGuess();
 
@@ -33,6 +34,7 @@ int main() {
 int enterGuess() {
   int guess=0;
 
+  // Only allow numbers 1-10
   while(guess<1 || guess>10){
     cout << "What is your guess (1-10): ";
     cin >> guess;
