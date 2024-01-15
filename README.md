@@ -11,6 +11,7 @@ https://github.com/PatrickMalloy/number-guess.git
 
 ## Compile and Run
 ```
+cd number-guess;
 make;
-number-guess
+./number-guess
 ```
